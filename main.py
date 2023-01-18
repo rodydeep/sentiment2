@@ -103,7 +103,7 @@ x_test = vec_transform.toarray()
 
 
 # membaca model 
-load_model = pickle.load(open('model_bayes.pkl', 'rb'))
+load_model = pickle.load(open('model_bayes_.pkl', 'rb'))
 
 inputan['sentimen'] = load_model.predict(x_test)
 # Apply model to make predictions
